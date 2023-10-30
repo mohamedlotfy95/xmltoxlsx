@@ -51,7 +51,7 @@ def main():
     xml_data = read_xml_file('xmsource.xml')
     root = parse_xml_data(xml_data)
     data = get_key_value_pairs(root)
-    write_to_excel(data, 'tabular.xlsx')
+    write_to_excel(data, 'tabula.xlsx')
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 # XML Data Parser
 
-This Python script reads XML data from a file, parses it, and writes key-value pairs from the data to an Excel file.
+This Python script reads XML data from an XML file, parses it, and writes key-value pairs from the data to an Excel file. The script also includes a Continuous Integration (CI) workflow using GitHub Actions.
 
 ## Dependencies
 
@@ -9,7 +9,7 @@ This Python script reads XML data from a file, parses it, and writes key-value p
 - **pandas**: This is a powerful data manipulation library that provides flexible data structures to manipulate and analyze data. You can install it using pip: `pip install pandas`.
 - **openpyxl**: This is a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files. You can install it using pip: `pip install openpyxl`.
 
-## How to Run
+## How to Run the Script Locally
 
 1. Save the script in a .py file, for example, `xml_parser.py`.
 2. Place your XML file (e.g., `xmsource.xml`) in the same directory as your Python script.
