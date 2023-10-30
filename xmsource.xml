@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<appSettings file="ConfigKeys.config">
+    <add key="webpages:Version" value="1.0.0.0" />
+    <add key="webpages:Enabled" value="true" />
+    <add key="EnableCache" value="true" />
+    <add key="ConnectionString" value="server=Server1,password=P@ssW0rd" />
+</appSettings>
