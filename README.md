@@ -17,6 +17,12 @@ This Python script reads XML data from a file, parses it, and writes key-value p
 4. Navigate to the directory containing your script and XML file.
 5. Run the script using Python by typing `python xml_parser.py` and pressing Enter.
 
+## How to Run the GitHub Actions Workflow
+
+1. Push the script and the `.github/workflows/python-app.yml` file to your GitHub repository.
+2. The workflow will run automatically when there's a push or pull request to the `main` branch.
+3. You can see the status of your workflows by clicking on the `Actions` tab in your GitHub repository.
+
 ## Example Output
 
 The script will create an Excel file named "tabula.xlsx" in the same directory as your Python script. The Excel file will have two columns: "Key" and "Value". Each row in the Excel file corresponds to a key-value pair from the XML data.
