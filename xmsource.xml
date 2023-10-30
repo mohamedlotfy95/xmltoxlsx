@@ -3,5 +3,7 @@
     <add key="webpages:Version" value="1.0.0.0" />
     <add key="webpages:Enabled" value="true" />
     <add key="EnableCache" value="true" />
+    <!-- add the below line to test  overwrite and append conditions -->
+    <add key="EnableCache2" value="false" />
     <add key="ConnectionString" value="server=Server1,password=P@ssW0rd" />
 </appSettings>
